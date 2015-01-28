@@ -1,0 +1,9 @@
+/* 
+	Cyndi Ai
+	The style sheet for dealCards.html
+*/
+
+body {
+	background-image: url("greenBackground.jpg");
+	font-family: Verdana, Tahoma, sans-serif;
+}

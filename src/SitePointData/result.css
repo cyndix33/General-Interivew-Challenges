@@ -1,0 +1,20 @@
+
+.bar {
+	background-color: #FFBBBB;
+	font-weight: bold;
+	text-align: center;
+	width: 50px;
+}
+
+#graph td {
+	height: 250px;
+	vertical-align: bottom;
+}
+ 
+#output, #error{
+	display:none;
+}
+
+#errorMsg{
+	color: red;
+}

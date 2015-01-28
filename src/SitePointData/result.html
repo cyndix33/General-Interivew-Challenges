@@ -1,0 +1,49 @@
+<!-- Cyndi Ai
+	 BAIDU assignment #3
+	 Search articles on sitepoint.com
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Search on sitepoint.com</title>
+		<script src="result.js" type="text/javascript"></script>
+		<link href="result.css" type="text/css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<h1>Search on SitePoint</h1>
+		
+		<p>Input the VALID URL of the article you need</p>
+		
+		<div>
+			<input id="article" type="text" size="200" value="http://www.sitepoint.com/flow-based-programming-noflo/" />
+			<button id="fetch">Get Info!</button>
+		</div>
+
+		<div id = "error">
+			<h2 id = "errorMsg">The URL you entered is not a valid sitepoint website</h2>
+		</div>
+
+		<div id = "output">
+			<div>
+				<h2>Basic Information of the Article</h2>
+				<p id="part1"></p>
+				<p id="summary"></p>
+			</div>
+		
+			<div>
+				<h2>Word Stats</h2>
+				<ul id="stat"></ul>
+				<button id="prev" disabled="disabled">previous</button>
+				<button id="next">next</button>
+			</div>
+
+			<div>
+				<h2>Bar Graph</h2>
+				<p>Showing how the rank of the top 20 frequently used words in the article</p>
+				<table id="graph"></table>
+			</div>
+		</div>
+	</body>
+</html>
