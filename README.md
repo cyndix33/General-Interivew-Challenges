@@ -20,3 +20,7 @@ By using PHP, extract all the main data needed within each article.
 
 ###GetHepta!
 Change the number into Hepta form
+
+###MaxWishes
+Given a matrix with Ts and Fs, if you were able to make one flip to the entire row,
+what is the maximum number of rows that have the same T or F
